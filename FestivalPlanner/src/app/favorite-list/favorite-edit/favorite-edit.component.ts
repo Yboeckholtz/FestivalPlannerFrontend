@@ -6,8 +6,11 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./favorite-edit.component.css']
 })
 export class FavoriteEditComponent implements OnInit {
+  artists = [];
 
-  constructor() { }
+  constructor() {
+
+   }
 
   ngOnInit() {
   }

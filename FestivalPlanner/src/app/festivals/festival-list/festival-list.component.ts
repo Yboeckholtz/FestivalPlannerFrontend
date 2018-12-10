@@ -8,7 +8,7 @@ import { Festival } from 'src/app/models/festival.model';
 })
 export class FestivalListComponent implements OnInit {
   festivals : Festival[] = [
-    new Festival('Best Festi Ever','Best artist ever','https://i.redd.it/r0czo9ekyuy11.jpg')
+    new Festival('Best Festi Ever','The best artists ever will come to this festival, there will be a great show with a total of 10 artists','https://i.redd.it/r0czo9ekyuy11.jpg')
   ];
 
   constructor() { }
